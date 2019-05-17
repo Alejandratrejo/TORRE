@@ -10,7 +10,7 @@ public class TORRE {
         int n;
         System.out.println("Numero de discos: ");
         n = sc.nextInt();
-        Hanoi(n, 1, 2, 3);  //1:origen  2:auxiliar 3:destino
+        Hanoi(n, 1, 5, 3);  //1:origen  2:auxiliar 3:destino
     }
 
 //Método Torres de Hanoi Recursivo
